@@ -1,0 +1,16 @@
+---
+pagetitle: "Custom Listing"
+format:
+  html
+listing:
+  template: custom.ejs
+  contents:
+    - name: First Item
+      href: https://www.quarto.org
+      custom-field: A custom value
+    - name: Second Item
+      href: https://www.rstudio.org
+      custom-field: A second custom value
+---
+
+# Custom Listing Test
